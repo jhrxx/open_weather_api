@@ -48,6 +48,12 @@ ol, ul {
 	width: 75%;
 }
 
+#chart {
+	padding: 100px;
+	width:800px;
+	height: 600px;
+}
+
 @media screen and (min-width: 375px){
   html{
     font-size: 117.1875px;

@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="app/styles/main.css">
 </head>
 <body>
-	<div id="main" ng-app="openWeathers">
+	<div id="main" ng-app="openWeathers"  ng-controller="mainCtrl">
 		<div id="sidebar" ng-controller="sidebarCtrl">
 			<nav>
 				<ul ng-repeat="item in data" ng-click="showDetail(item)">
@@ -18,11 +18,12 @@
 				</ul>
 			</nav>
 		</div>
-		<div id="content" ng-controller="mainCtrl">
-
+		<div id="content">
+			<div id="chart"></div>
 		</div>
 	</div>
 	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="bower_components/echarts/dist/echarts.min.js"></script>
 	<script type="text/javascript" src="app/scripts/main.js"></script>
 	<script type="text/javascript" src="app/scripts/sidebar/main.controller.js"></script>
 	<script type="text/javascript" src="app/scripts/sidebar/main.model.js"></script>
