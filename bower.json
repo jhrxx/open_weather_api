@@ -1,0 +1,22 @@
+{
+  "name": "weather",
+  "description": "\"# open_weather_api\"",
+  "main": "index.js",
+  "authors": [
+    "Bob H Jiang"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jhrxx/open_weather_api",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.11",
+    "echarts": "^3.6.2"
+  }
+}
