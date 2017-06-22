@@ -2,4 +2,32 @@
 
 body {
 	font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+	line-height: 1;
+	font-size: 100px;
+}
+
+body, div, span, h1, h2, h3, h4, h5, h6, p, img,  ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+article {
+	font-size: .14rem;
+}
+
+@media screen and (min-width: 375px){
+  html{
+    font-size: 117.1875px;
+  }
+}
+@media screen and (min-width: 414px){
+  html{
+    font-size: 129.375px;
+  }
 }
