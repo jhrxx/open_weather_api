@@ -1,0 +1,23 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "\"# open_weather_api\"",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhrxx/open_weather_api.git"
+  },
+  "author": "Bob H Jiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhrxx/open_weather_api/issues"
+  },
+  "homepage": "https://github.com/jhrxx/open_weather_api#readme"
+}

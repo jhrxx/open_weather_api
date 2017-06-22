@@ -1,0 +1,5 @@
+*, *:after, *:before {box-sizing: border-box;}
+
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+}
