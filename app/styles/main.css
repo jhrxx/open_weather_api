@@ -17,8 +17,35 @@ ol, ul {
 	list-style: none;
 }
 
-article {
+#main {
 	font-size: .14rem;
+}
+#sidebar {
+	float: left;
+	width: 23%;
+	min-height: 100vh;
+	background-color: rgb(103,59,77);
+}
+#sidebar li {
+	color: #fff;
+	border: 5px solid #ddd;
+	margin: 5px 10px;
+	padding: 10px 15px;
+	cursor: pointer;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+#sidebar li:hover{
+	border: 5px solid #fff;
+}
+#sidebar  p{
+	font-size: .12rem;
+	margin: 5px 0; 
+}
+#content {
+	float: left;
+	min-height: 100vh;
+	margin-right: 1%;
+	width: 75%;
 }
 
 @media screen and (min-width: 375px){
